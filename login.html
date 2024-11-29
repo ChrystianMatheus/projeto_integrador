@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Portal de Acompanhamento Escolar</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <h1>Login - Portal Escolar</h1>
+        <form id="login-form">
+            <label for="username">Responsável:</label>
+            <input type="text" id="username" name="username" required>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+            
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+
+    <div class="dashboard-container" style="display: none;">
+        <div id="aluno-info"></div>
+        <button id="logout-button">Sair</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
